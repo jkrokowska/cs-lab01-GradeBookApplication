@@ -99,13 +99,11 @@ namespace GradeBook.UserInterfaces
             Console.WriteLine();
             Console.WriteLine("GradeBook accepts the following commands:");
             Console.WriteLine();
-            Console.WriteLine("Create 'Name' 'Type' 'IsWeighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'IsWeighted' indicates if the grading should be weighted (true/false).");
-            Console.WriteLine();
+            Console.WriteLine("Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false).");
             Console.WriteLine("Load 'Name' - Loads the gradebook with the provided 'Name'.");
-            Console.WriteLine();
             Console.WriteLine("Help - Displays all accepted commands.");
-            Console.WriteLine();
             Console.WriteLine("Quit - Exits the application");
+            Console.WriteLine();
         }
     }
 }
